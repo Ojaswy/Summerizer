@@ -1,4 +1,4 @@
-"""
+""" 
 Script to score sentences to get summary
 """
 import nltk
