@@ -13,7 +13,7 @@ train = brown.tagged_sents(categories='news')
 
 # backoff regex tagging
 regex_tag = nltk.RegexpTagger([
-     (r'^[-\:]?[0-9]+(.[0-9]+)?$', 'CD'),
+     (r'^[-\:]?[0-9]+(.[0-9]+)?$', 'CD'), 
      (r'.*able$', 'JJ'),
      (r'^[A-Z].*$', 'NNP'),
      (r'.*ly$', 'RB'),
