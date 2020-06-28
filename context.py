@@ -6,7 +6,7 @@ Script to extract important topics from content
 
 import nltk
 from nltk.corpus import brown
-import util
+import util 
 
 
 train = brown.tagged_sents(categories='news')
