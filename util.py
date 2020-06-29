@@ -5,7 +5,7 @@ from nltk import tokenize
 from nltk.tokenize import word_tokenize
 
 
-def getWords(sentence):
+def getWords(sentence): 
     """
     Extracts words/tokens from a sentence
     :param sentence: (str) sentence
